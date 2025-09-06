@@ -1,0 +1,11 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "artifacts/reports/supervision_report.json",
+        "artifacts/reports/supervision_report_*.json"
+      ],
+      "url": "./schemas/supervision_report.schema.json"
+    }
+  ]
+}

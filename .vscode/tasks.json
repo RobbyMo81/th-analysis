@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Validate Helmsman report",
+      "type": "shell",
+      "command": "helmsman",
+      "args": ["validate", "artifacts/reports/supervision_report_*.json"],
+      "problemMatcher": {
+        "owner": "helmsman",
+        "fileLocation": ["absolute"],
+        "pattern": {
+          "regexp": "^(.*):([0-9]+):([0-9]+): (error|warning) (.*)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "severity": 4,
+          "message": 5
+        }
+      },
+      "group": "test"
+    }
+  ]
+}

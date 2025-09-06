@@ -1,0 +1,16 @@
+{
+  "total_trades": 130,
+  "win_trades": 71,
+  "loss_trades": 57,
+  "win_rate": 0.5461538461538461,
+  "total_pnl": -135476.02,
+  "average_gain": 15483.962253521127,
+  "average_loss": -21663.812982456137,
+  "gain_loss_ratio": 0.7147385488445825,
+  "expectancy": -1042.1232307692308,
+  "max_drawdown": -330513.26999999996,
+  "max_drawdown_start": "2025-03-06T00:00:00",
+  "max_drawdown_end": "2025-06-17T00:00:00",
+  "longest_win_streak": 4,
+  "longest_loss_streak": 4
+}
